@@ -171,6 +171,7 @@ h1 {
 
 .portfolio-img{
     max-width: 100%;
+
 }
 
 .thumbnail{
@@ -180,6 +181,7 @@ h1 {
     margin-bottom: 25px;
     margin-right: 25px;
     float: left;
+    z-index: 0;
 }
   
 .thumbnail h3{
@@ -315,12 +317,14 @@ footer {
         border-bottom: 2px solid #ccc;
         width: 100%;
         padding: 0;
+        z-index: 5;
     }
     .header-container {
        
         margin: auto;
         width: 100%;
         overflow: auto;
+    
     }
 
     #logo {
@@ -333,12 +337,14 @@ footer {
         font-size: 20px;
         text-align: center;
         padding: 20px 0 20px 0;
+  
     }
 
     #top-nav{
         margin: auto;
         text-align: center;
         width: 100%;
+     
 
     }
 
