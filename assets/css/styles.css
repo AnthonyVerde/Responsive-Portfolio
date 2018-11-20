@@ -307,11 +307,20 @@ footer {
 }
 
 @media screen and (max-width: 640px) {
+
+    header {
+        position: fixed;
+        background: #fff;
+        margin: auto 0;
+        border-bottom: 2px solid #ccc;
+        width: 100%;
+        padding: 0;
+    }
     .header-container {
+       
         margin: auto;
         width: 100%;
         overflow: auto;
-        padding: 0;
     }
 
     #logo {
@@ -321,15 +330,16 @@ footer {
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-weight: bold;
         color: #fff;
-        font-size: 24px;
+        font-size: 20px;
         text-align: center;
-        padding: 25px 0 25px 0;
+        padding: 20px 0 20px 0;
     }
 
     #top-nav{
         margin: auto;
         text-align: center;
         width: 100%;
+
     }
 
     ul {
@@ -347,14 +357,17 @@ footer {
         color: #777;
         text-decoration: none;
         font-size: 14px;
+        margin-top: 12px;
+        margin-bottom: 12px;
     }
 
     .content-container {
         max-width: 640px;
-        margin: 25px auto;
+        margin: 0 auto;
         margin-bottom: 100px;
         background: #fff;
         overflow: hidden;
+        padding-top: 170px;
         padding-bottom: 25px;
         border: 1px solid #ddd;
     }
